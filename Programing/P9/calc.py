@@ -23,6 +23,10 @@ class MyLong(object):
     10000ML
     >>> a+a
     20000ML
+    >>> a+a+a
+    30000ML
+    >>> a
+    10000ML
     >>> b = MyLong("123456789")
     >>> c = MyLong("123456789")
     >>> a+b
