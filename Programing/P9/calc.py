@@ -24,6 +24,7 @@ class MyLong(object):
     >>> a+a
     20000ML
     >>> b = MyLong("123456789")
+    >>> c = MyLong("123456789")
     >>> a+b
     123466789ML
     >>> a*b
